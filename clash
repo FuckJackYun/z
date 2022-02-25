@@ -5,167 +5,167 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: JP_TG白嫖频道@zissv, server: 0218jp09.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0218jp09.fans8.xyz}}, udp: true}
-  - {name: JP_TG白嫖频道@zissv 2, server: 0218jp05.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0218jp05.fans8.xyz}}, udp: true}
-  - {name: SG_TG白嫖频道@zissv, server: 0219sg.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0219sg.fans8.xyz}}, udp: true}
-  - {name: JP_TG白嫖频道@zissv 3, server: os2-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-3.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: TW_TG白嫖频道@zissv, server: 0218tw02.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0218tw02.fans8.xyz}}, udp: true}
-  - {name: HK_TG白嫖频道@zissv, server: hk1.qtycloud.link, port: 1504, type: vmess, uuid: 031ecd64-6b36-3ed7-bb77-e4afbd839bf6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk1.qtycloud.link}}, udp: true}
-  - {name: HK_TG白嫖频道@zissv 2, server: hk1.qtycloud.link, port: 1507, type: vmess, uuid: 031ecd64-6b36-3ed7-bb77-e4afbd839bf6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk1.qtycloud.link}}, udp: true}
-  - {name: TW_TG白嫖频道@zissv 2, server: 128tw02.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: 128tw02.fans8.xyz}}, udp: true}
-  - {name: HK_TG白嫖频道@zissv 3, server: hk1.qtycloud.link, port: 1508, type: vmess, uuid: 031ecd64-6b36-3ed7-bb77-e4afbd839bf6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk1.qtycloud.link}}, udp: true}
-  - {name: HK_TG白嫖频道@zissv 4, server: hk1.qtycloud.link, port: 1501, type: vmess, uuid: 031ecd64-6b36-3ed7-bb77-e4afbd839bf6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk1.qtycloud.link}}, udp: true}
-  - {name: JP_TG白嫖频道@zissv 4, server: os2-6.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-6.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: HK_TG白嫖频道@zissv 5, server: 16.163.148.47, port: 38957, type: ss, cipher: aes-256-gcm, password: b7aa90f0-8be1-4420-a860-147e980a198e, udp: true}
-  - {name: HK_TG白嫖频道@zissv 6, server: 16.163.192.29, port: 37528, type: ss, cipher: aes-256-gcm, password: b7aa90f0-8be1-4420-a860-147e980a198e, udp: true}
-  - {name: RU_TG白嫖频道@zissv, server: 92.223.72.42, port: 443, type: vmess, uuid: ae08412f-5bb9-4be7-8560-1984976a1097, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: govacaxixo.watchdoctor.xyz}}, udp: true}
-  - {name: HK_TG白嫖频道@zissv 7, server: 102.wowogg.cyou, port: 11221, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: AU_TG白嫖频道@zissv, server: 45.76.127.189, port: 443, type: vmess, uuid: 7fc6764a-6cba-4599-95d7-ac7617b7db0a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: govacaxixo.watchdoctor.xyz}}, udp: true}
-  - {name: US_TG白嫖频道@zissv, server: 38.75.136.127, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_TG白嫖频道@zissv 2, server: 38.143.66.186, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_TG白嫖频道@zissv 3, server: 38.143.66.134, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_TG白嫖频道@zissv 4, server: 38.75.136.127, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_TG白嫖频道@zissv 5, server: 165.232.153.196, port: 8080, type: vmess, uuid: 031ecd64-6b36-3ed7-bb77-e4afbd839bf6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: baiducdncmn2.inter.iqiyi.com}}, udp: true}
-  - {name: US_TG白嫖频道@zissv 6, server: 38.75.136.127, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US_TG白嫖频道@zissv 7, server: 38.75.136.127, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_TG白嫖频道@zissv 8, server: 38.143.66.134, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US_TG白嫖频道@zissv 9, server: 38.143.66.134, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_TG白嫖频道@zissv 10, server: 38.143.66.186, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_TG白嫖频道@zissv 11, server: 38.143.66.33, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US_TG白嫖频道@zissv 12, server: 38.143.66.186, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_TG白嫖频道@zissv 13, server: 38.143.66.134, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_TG白嫖频道@zissv 14, server: 38.143.66.186, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_TG白嫖频道@zissv 15, server: 38.143.66.33, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_TG白嫖频道@zissv 16, server: 38.143.66.186, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_TG白嫖频道@zissv 17, server: 38.143.66.186, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US_TG白嫖频道@zissv 18, server: 38.143.66.186, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_TG白嫖频道@zissv 19, server: 38.143.66.33, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_TG白嫖频道@zissv 20, server: 38.143.66.134, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US_TG白嫖频道@zissv 21, server: 38.143.66.186, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: US_TG白嫖频道@zissv 22, server: 38.143.66.186, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US_TG白嫖频道@zissv 23, server: 38.143.66.134, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: US_TG白嫖频道@zissv 24, server: 38.75.136.127, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_TG白嫖频道@zissv 25, server: 38.143.66.33, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_TG白嫖频道@zissv 26, server: 38.75.136.127, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_TG白嫖频道@zissv 27, server: 38.75.136.127, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_TG白嫖频道@zissv 28, server: 38.143.66.134, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_TG白嫖频道@zissv 29, server: 38.143.66.186, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_TG白嫖频道@zissv 30, server: 38.143.66.33, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US_TG白嫖频道@zissv 31, server: 38.143.66.33, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_TG白嫖频道@zissv 32, server: 38.75.136.127, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_TG白嫖频道@zissv 33, server: 38.143.66.186, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_TG白嫖频道@zissv 34, server: 38.143.66.33, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 更新于02/25, server: shallaz.proconcn.xyz, port: 566, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocolparam: 52030:ff778899, obfsparam: "", udp: true}
+  - {name: TG白嫖频道@zissv, server: 90.wowogg.cyou, port: 52290, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG白嫖频道@zissv 2, server: shonlinesandcu03.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocolparam: 52030:ff778899, obfsparam: "", udp: true}
+  - {name: TG白嫖频道@zissv 3, server: 00178641680d4f73a85ff60e4cd27628sa.jkcloud.xyz, port: 18888, type: vmess, uuid: e5bf31e0-0ffc-4acf-877e-442fab645ec3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: TG白嫖频道@zissv 4, server: eb0453114ec45064654e57eeb394d6671csda.jkcloud.xyz, port: 6666, type: vmess, uuid: e5bf31e0-0ffc-4acf-877e-442fab645ec3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: TG白嫖频道@zissv 5, server: 56c918c15a09403d93c037772a69dwd.jkcloud.xyz, port: 6666, type: vmess, uuid: e5bf31e0-0ffc-4acf-877e-442fab645ec3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: TG白嫖频道@zissv 6, server: shonlinecu.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocolparam: 52030:ff778899, obfsparam: "", udp: true}
+  - {name: TG白嫖频道@zissv 7, server: mg05.nfeng6.pp.ua, port: 63078, type: vmess, uuid: aac24c65-c0bb-38ed-a85f-f43078efc55e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk-balancer.airport-v2.com}}, udp: true}
+  - {name: TG白嫖频道@zissv 8, server: 02b8176c05bf44698ab04428526a213e.jkcloud.xyz, port: 6668, type: vmess, uuid: e5bf31e0-0ffc-4acf-877e-442fab645ec3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: TG白嫖频道@zissv 9, server: 00178641680d4f73a85ff60e4cd27629.jkcloud.xyz, port: 6661, type: vmess, uuid: e5bf31e0-0ffc-4acf-877e-442fab645ec3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: TG白嫖频道@zissv 10, server: jp-group-a-direct.node001.xyz, port: 80, type: vmess, uuid: aac24c65-c0bb-38ed-a85f-f43078efc55e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: new.vip.weibo.cn}}, udp: true}
+  - {name: TG白嫖频道@zissv 11, server: 00178641680d4f73a85ff60e4cd27628.jkcloud.xyz, port: 9947, type: vmess, uuid: e5bf31e0-0ffc-4acf-877e-442fab645ec3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: TG白嫖频道@zissv 12, server: 00178641680d4f73a85ff60e4cd27629.jkcloud.xyz, port: 6665, type: vmess, uuid: e5bf31e0-0ffc-4acf-877e-442fab645ec3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: TG白嫖频道@zissv 13, server: 136.wowogg.cyou, port: 52436, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG白嫖频道@zissv 14, server: 00178641680d4f73a85ff60e4cd27628sa.jkcloud.xyz, port: 16585, type: ss, cipher: chacha20-ietf-poly1305, password: e5bf31e0-0ffc-4acf-877e-442fab645ec3, udp: true}
+  - {name: TG白嫖频道@zissv 15, server: 132.wowogg.cyou, port: 52332, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG白嫖频道@zissv 16, server: gzbgpss.8n4t.cn, port: 20115, type: trojan, password: 43a29215-a4c6-3b8a-9697-5242c8f09213, sni: gzbgpss.8n4t.cn, skip-cert-verify: true, udp: true}
+  - {name: TG白嫖频道@zissv 17, server: 86.wowogg.cyou, port: 52286, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG白嫖频道@zissv 18, server: shonlinesandcu03.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocolparam: 52030:ff778899, obfsparam: "", udp: true}
+  - {name: TG白嫖频道@zissv 19, server: 02b8176c05bf44698ab04428526a213e.jkcloud.xyz, port: 6458, type: vmess, uuid: e5bf31e0-0ffc-4acf-877e-442fab645ec3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: TG白嫖频道@zissv 20, server: 84.wowogg.cyou, port: 52284, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG白嫖频道@zissv 21, server: 81.wowogg.cyou, port: 52281, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG白嫖频道@zissv 22, server: 00178641680d4f73a85ff60e4cd27628sa.jkcloud.xyz, port: 6655, type: vmess, uuid: e5bf31e0-0ffc-4acf-877e-442fab645ec3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: TG白嫖频道@zissv 23, server: 101.wowogg.cyou, port: 52201, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG白嫖频道@zissv 24, server: 02b8176c05bf44698ab04428526a213e.jkcloud.xyz, port: 6665, type: vmess, uuid: e5bf31e0-0ffc-4acf-877e-442fab645ec3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: TG白嫖频道@zissv 25, server: 103.wowogg.cyou, port: 52203, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG白嫖频道@zissv 26, server: 91.wowogg.cyou, port: 52291, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG白嫖频道@zissv 27, server: 00178641680d4f73a85ff60e4cd27629.jkcloud.xyz, port: 6666, type: vmess, uuid: e5bf31e0-0ffc-4acf-877e-442fab645ec3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: TG白嫖频道@zissv 28, server: czlt.tuboshu.space, port: 18888, type: vmess, uuid: 70cd9591-7df0-3812-88fb-255d9548108f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /tin, headers: {Host: czlt.tuboshu.space}}, udp: true}
+  - {name: TG白嫖频道@zissv 29, server: shcris02stand.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocolparam: 52030:ff778899, obfsparam: "", udp: true}
+  - {name: TG白嫖频道@zissv 30, server: 02b8176c05bf44698ab04428526a213e.jkcloud.xyz, port: 6664, type: vmess, uuid: e5bf31e0-0ffc-4acf-877e-442fab645ec3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: TG白嫖频道@zissv 31, server: hl.111003.gq, port: 11700, type: vmess, uuid: 04a7b5aa-a31a-3daa-a72d-a392cb8389ba, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: ri1.lixiaolong.buzz}}, udp: true}
+  - {name: TG白嫖频道@zissv 32, server: czlt.tuboshu.space, port: 18888, type: vmess, uuid: 70cd9591-7df0-3812-88fb-255d9548108f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /tsg, headers: {Host: czlt.tuboshu.space}}, udp: true}
+  - {name: TG白嫖频道@zissv 33, server: centralchina1.cloudlink123.com, port: 37005, type: ss, cipher: aes-128-gcm, password: 1cd05439-fa61-406e-8c7d-2e0dd016640c, udp: true}
+  - {name: TG白嫖频道@zissv 34, server: 133.wowogg.cyou, port: 52333, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG白嫖频道@zissv 35, server: 94.wowogg.cyou, port: 52294, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG白嫖频道@zissv 36, server: centralchina1.cloudlink123.com, port: 37009, type: ss, cipher: aes-128-gcm, password: 1cd05439-fa61-406e-8c7d-2e0dd016640c, udp: true}
+  - {name: TG白嫖频道@zissv 37, server: sadadwfiouahofhwofiuahh.jkcloud.xyz, port: 15877, type: ss, cipher: chacha20-ietf-poly1305, password: e5bf31e0-0ffc-4acf-877e-442fab645ec3, udp: true}
+  - {name: TG白嫖频道@zissv 38, server: hzlt.tuboshu.space, port: 18888, type: vmess, uuid: 70cd9591-7df0-3812-88fb-255d9548108f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /tsg, headers: {Host: hzlt.tuboshu.space}}, udp: true}
+  - {name: TG白嫖频道@zissv 39, server: shallaz.proconcn.xyz, port: 565, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocolparam: 52030:ff778899, obfsparam: "", udp: true}
+  - {name: TG白嫖频道@zissv 40, server: 82.wowogg.cyou, port: 52282, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG白嫖频道@zissv 41, server: mg05.nfeng6.pp.ua, port: 63069, type: vmess, uuid: aac24c65-c0bb-38ed-a85f-f43078efc55e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mugua-us03.covid19.rip}}, udp: true}
+  - {name: TG白嫖频道@zissv 42, server: 98.wowogg.cyou, port: 52298, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG白嫖频道@zissv 43, server: 131.wowogg.cyou, port: 52331, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG白嫖频道@zissv 44, server: sadadwfiouahofhwofiuahh.jkcloud.xyz, port: 10002, type: vmess, uuid: e5bf31e0-0ffc-4acf-877e-442fab645ec3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: TG白嫖频道@zissv 45, server: mg04.nfeng6.pp.ua, port: 63078, type: vmess, uuid: aac24c65-c0bb-38ed-a85f-f43078efc55e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk-balancer.airport-v2.com}}, udp: true}
+  - {name: TG白嫖频道@zissv 46, server: czlt.tuboshu.space, port: 18888, type: vmess, uuid: 70cd9591-7df0-3812-88fb-255d9548108f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /tin, headers: {Host: czlt.tuboshu.space}}, udp: true}
+  - {name: TG白嫖频道@zissv 47, server: 122.wowogg.cyou, port: 52222, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG白嫖频道@zissv 48, server: 00178641680d4f73a85ff60e4cd27628sa.jkcloud.xyz, port: 2237, type: vmess, uuid: e5bf31e0-0ffc-4acf-877e-442fab645ec3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: baidu.com}}, udp: true}
+  - {name: TG白嫖频道@zissv 49, server: 96.wowogg.cyou, port: 52296, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - JP_TG白嫖频道@zissv
-      - JP_TG白嫖频道@zissv 2
-      - SG_TG白嫖频道@zissv
-      - JP_TG白嫖频道@zissv 3
-      - TW_TG白嫖频道@zissv
-      - HK_TG白嫖频道@zissv
-      - HK_TG白嫖频道@zissv 2
-      - TW_TG白嫖频道@zissv 2
-      - HK_TG白嫖频道@zissv 3
-      - HK_TG白嫖频道@zissv 4
-      - JP_TG白嫖频道@zissv 4
-      - HK_TG白嫖频道@zissv 5
-      - HK_TG白嫖频道@zissv 6
-      - RU_TG白嫖频道@zissv
-      - HK_TG白嫖频道@zissv 7
-      - AU_TG白嫖频道@zissv
-      - US_TG白嫖频道@zissv
-      - US_TG白嫖频道@zissv 2
-      - US_TG白嫖频道@zissv 3
-      - US_TG白嫖频道@zissv 4
-      - US_TG白嫖频道@zissv 5
-      - US_TG白嫖频道@zissv 6
-      - US_TG白嫖频道@zissv 7
-      - US_TG白嫖频道@zissv 8
-      - US_TG白嫖频道@zissv 9
-      - US_TG白嫖频道@zissv 10
-      - US_TG白嫖频道@zissv 11
-      - US_TG白嫖频道@zissv 12
-      - US_TG白嫖频道@zissv 13
-      - US_TG白嫖频道@zissv 14
-      - US_TG白嫖频道@zissv 15
-      - US_TG白嫖频道@zissv 16
-      - US_TG白嫖频道@zissv 17
-      - US_TG白嫖频道@zissv 18
-      - US_TG白嫖频道@zissv 19
-      - US_TG白嫖频道@zissv 20
-      - US_TG白嫖频道@zissv 21
-      - US_TG白嫖频道@zissv 22
-      - US_TG白嫖频道@zissv 23
-      - US_TG白嫖频道@zissv 24
-      - US_TG白嫖频道@zissv 25
-      - US_TG白嫖频道@zissv 26
-      - US_TG白嫖频道@zissv 27
-      - US_TG白嫖频道@zissv 28
-      - US_TG白嫖频道@zissv 29
-      - US_TG白嫖频道@zissv 30
-      - US_TG白嫖频道@zissv 31
-      - US_TG白嫖频道@zissv 32
-      - US_TG白嫖频道@zissv 33
-      - US_TG白嫖频道@zissv 34
+      - 更新于02/25
+      - TG白嫖频道@zissv
+      - TG白嫖频道@zissv 2
+      - TG白嫖频道@zissv 3
+      - TG白嫖频道@zissv 4
+      - TG白嫖频道@zissv 5
+      - TG白嫖频道@zissv 6
+      - TG白嫖频道@zissv 7
+      - TG白嫖频道@zissv 8
+      - TG白嫖频道@zissv 9
+      - TG白嫖频道@zissv 10
+      - TG白嫖频道@zissv 11
+      - TG白嫖频道@zissv 12
+      - TG白嫖频道@zissv 13
+      - TG白嫖频道@zissv 14
+      - TG白嫖频道@zissv 15
+      - TG白嫖频道@zissv 16
+      - TG白嫖频道@zissv 17
+      - TG白嫖频道@zissv 18
+      - TG白嫖频道@zissv 19
+      - TG白嫖频道@zissv 20
+      - TG白嫖频道@zissv 21
+      - TG白嫖频道@zissv 22
+      - TG白嫖频道@zissv 23
+      - TG白嫖频道@zissv 24
+      - TG白嫖频道@zissv 25
+      - TG白嫖频道@zissv 26
+      - TG白嫖频道@zissv 27
+      - TG白嫖频道@zissv 28
+      - TG白嫖频道@zissv 29
+      - TG白嫖频道@zissv 30
+      - TG白嫖频道@zissv 31
+      - TG白嫖频道@zissv 32
+      - TG白嫖频道@zissv 33
+      - TG白嫖频道@zissv 34
+      - TG白嫖频道@zissv 35
+      - TG白嫖频道@zissv 36
+      - TG白嫖频道@zissv 37
+      - TG白嫖频道@zissv 38
+      - TG白嫖频道@zissv 39
+      - TG白嫖频道@zissv 40
+      - TG白嫖频道@zissv 41
+      - TG白嫖频道@zissv 42
+      - TG白嫖频道@zissv 43
+      - TG白嫖频道@zissv 44
+      - TG白嫖频道@zissv 45
+      - TG白嫖频道@zissv 46
+      - TG白嫖频道@zissv 47
+      - TG白嫖频道@zissv 48
+      - TG白嫖频道@zissv 49
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - JP_TG白嫖频道@zissv
-      - JP_TG白嫖频道@zissv 2
-      - SG_TG白嫖频道@zissv
-      - JP_TG白嫖频道@zissv 3
-      - TW_TG白嫖频道@zissv
-      - HK_TG白嫖频道@zissv
-      - HK_TG白嫖频道@zissv 2
-      - TW_TG白嫖频道@zissv 2
-      - HK_TG白嫖频道@zissv 3
-      - HK_TG白嫖频道@zissv 4
-      - JP_TG白嫖频道@zissv 4
-      - HK_TG白嫖频道@zissv 5
-      - HK_TG白嫖频道@zissv 6
-      - RU_TG白嫖频道@zissv
-      - HK_TG白嫖频道@zissv 7
-      - AU_TG白嫖频道@zissv
-      - US_TG白嫖频道@zissv
-      - US_TG白嫖频道@zissv 2
-      - US_TG白嫖频道@zissv 3
-      - US_TG白嫖频道@zissv 4
-      - US_TG白嫖频道@zissv 5
-      - US_TG白嫖频道@zissv 6
-      - US_TG白嫖频道@zissv 7
-      - US_TG白嫖频道@zissv 8
-      - US_TG白嫖频道@zissv 9
-      - US_TG白嫖频道@zissv 10
-      - US_TG白嫖频道@zissv 11
-      - US_TG白嫖频道@zissv 12
-      - US_TG白嫖频道@zissv 13
-      - US_TG白嫖频道@zissv 14
-      - US_TG白嫖频道@zissv 15
-      - US_TG白嫖频道@zissv 16
-      - US_TG白嫖频道@zissv 17
-      - US_TG白嫖频道@zissv 18
-      - US_TG白嫖频道@zissv 19
-      - US_TG白嫖频道@zissv 20
-      - US_TG白嫖频道@zissv 21
-      - US_TG白嫖频道@zissv 22
-      - US_TG白嫖频道@zissv 23
-      - US_TG白嫖频道@zissv 24
-      - US_TG白嫖频道@zissv 25
-      - US_TG白嫖频道@zissv 26
-      - US_TG白嫖频道@zissv 27
-      - US_TG白嫖频道@zissv 28
-      - US_TG白嫖频道@zissv 29
-      - US_TG白嫖频道@zissv 30
-      - US_TG白嫖频道@zissv 31
-      - US_TG白嫖频道@zissv 32
-      - US_TG白嫖频道@zissv 33
-      - US_TG白嫖频道@zissv 34
+      - 更新于02/25
+      - TG白嫖频道@zissv
+      - TG白嫖频道@zissv 2
+      - TG白嫖频道@zissv 3
+      - TG白嫖频道@zissv 4
+      - TG白嫖频道@zissv 5
+      - TG白嫖频道@zissv 6
+      - TG白嫖频道@zissv 7
+      - TG白嫖频道@zissv 8
+      - TG白嫖频道@zissv 9
+      - TG白嫖频道@zissv 10
+      - TG白嫖频道@zissv 11
+      - TG白嫖频道@zissv 12
+      - TG白嫖频道@zissv 13
+      - TG白嫖频道@zissv 14
+      - TG白嫖频道@zissv 15
+      - TG白嫖频道@zissv 16
+      - TG白嫖频道@zissv 17
+      - TG白嫖频道@zissv 18
+      - TG白嫖频道@zissv 19
+      - TG白嫖频道@zissv 20
+      - TG白嫖频道@zissv 21
+      - TG白嫖频道@zissv 22
+      - TG白嫖频道@zissv 23
+      - TG白嫖频道@zissv 24
+      - TG白嫖频道@zissv 25
+      - TG白嫖频道@zissv 26
+      - TG白嫖频道@zissv 27
+      - TG白嫖频道@zissv 28
+      - TG白嫖频道@zissv 29
+      - TG白嫖频道@zissv 30
+      - TG白嫖频道@zissv 31
+      - TG白嫖频道@zissv 32
+      - TG白嫖频道@zissv 33
+      - TG白嫖频道@zissv 34
+      - TG白嫖频道@zissv 35
+      - TG白嫖频道@zissv 36
+      - TG白嫖频道@zissv 37
+      - TG白嫖频道@zissv 38
+      - TG白嫖频道@zissv 39
+      - TG白嫖频道@zissv 40
+      - TG白嫖频道@zissv 41
+      - TG白嫖频道@zissv 42
+      - TG白嫖频道@zissv 43
+      - TG白嫖频道@zissv 44
+      - TG白嫖频道@zissv 45
+      - TG白嫖频道@zissv 46
+      - TG白嫖频道@zissv 47
+      - TG白嫖频道@zissv 48
+      - TG白嫖频道@zissv 49
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -183,56 +183,56 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - JP_TG白嫖频道@zissv
-      - JP_TG白嫖频道@zissv 2
-      - SG_TG白嫖频道@zissv
-      - JP_TG白嫖频道@zissv 3
-      - TW_TG白嫖频道@zissv
-      - HK_TG白嫖频道@zissv
-      - HK_TG白嫖频道@zissv 2
-      - TW_TG白嫖频道@zissv 2
-      - HK_TG白嫖频道@zissv 3
-      - HK_TG白嫖频道@zissv 4
-      - JP_TG白嫖频道@zissv 4
-      - HK_TG白嫖频道@zissv 5
-      - HK_TG白嫖频道@zissv 6
-      - RU_TG白嫖频道@zissv
-      - HK_TG白嫖频道@zissv 7
-      - AU_TG白嫖频道@zissv
-      - US_TG白嫖频道@zissv
-      - US_TG白嫖频道@zissv 2
-      - US_TG白嫖频道@zissv 3
-      - US_TG白嫖频道@zissv 4
-      - US_TG白嫖频道@zissv 5
-      - US_TG白嫖频道@zissv 6
-      - US_TG白嫖频道@zissv 7
-      - US_TG白嫖频道@zissv 8
-      - US_TG白嫖频道@zissv 9
-      - US_TG白嫖频道@zissv 10
-      - US_TG白嫖频道@zissv 11
-      - US_TG白嫖频道@zissv 12
-      - US_TG白嫖频道@zissv 13
-      - US_TG白嫖频道@zissv 14
-      - US_TG白嫖频道@zissv 15
-      - US_TG白嫖频道@zissv 16
-      - US_TG白嫖频道@zissv 17
-      - US_TG白嫖频道@zissv 18
-      - US_TG白嫖频道@zissv 19
-      - US_TG白嫖频道@zissv 20
-      - US_TG白嫖频道@zissv 21
-      - US_TG白嫖频道@zissv 22
-      - US_TG白嫖频道@zissv 23
-      - US_TG白嫖频道@zissv 24
-      - US_TG白嫖频道@zissv 25
-      - US_TG白嫖频道@zissv 26
-      - US_TG白嫖频道@zissv 27
-      - US_TG白嫖频道@zissv 28
-      - US_TG白嫖频道@zissv 29
-      - US_TG白嫖频道@zissv 30
-      - US_TG白嫖频道@zissv 31
-      - US_TG白嫖频道@zissv 32
-      - US_TG白嫖频道@zissv 33
-      - US_TG白嫖频道@zissv 34
+      - 更新于02/25
+      - TG白嫖频道@zissv
+      - TG白嫖频道@zissv 2
+      - TG白嫖频道@zissv 3
+      - TG白嫖频道@zissv 4
+      - TG白嫖频道@zissv 5
+      - TG白嫖频道@zissv 6
+      - TG白嫖频道@zissv 7
+      - TG白嫖频道@zissv 8
+      - TG白嫖频道@zissv 9
+      - TG白嫖频道@zissv 10
+      - TG白嫖频道@zissv 11
+      - TG白嫖频道@zissv 12
+      - TG白嫖频道@zissv 13
+      - TG白嫖频道@zissv 14
+      - TG白嫖频道@zissv 15
+      - TG白嫖频道@zissv 16
+      - TG白嫖频道@zissv 17
+      - TG白嫖频道@zissv 18
+      - TG白嫖频道@zissv 19
+      - TG白嫖频道@zissv 20
+      - TG白嫖频道@zissv 21
+      - TG白嫖频道@zissv 22
+      - TG白嫖频道@zissv 23
+      - TG白嫖频道@zissv 24
+      - TG白嫖频道@zissv 25
+      - TG白嫖频道@zissv 26
+      - TG白嫖频道@zissv 27
+      - TG白嫖频道@zissv 28
+      - TG白嫖频道@zissv 29
+      - TG白嫖频道@zissv 30
+      - TG白嫖频道@zissv 31
+      - TG白嫖频道@zissv 32
+      - TG白嫖频道@zissv 33
+      - TG白嫖频道@zissv 34
+      - TG白嫖频道@zissv 35
+      - TG白嫖频道@zissv 36
+      - TG白嫖频道@zissv 37
+      - TG白嫖频道@zissv 38
+      - TG白嫖频道@zissv 39
+      - TG白嫖频道@zissv 40
+      - TG白嫖频道@zissv 41
+      - TG白嫖频道@zissv 42
+      - TG白嫖频道@zissv 43
+      - TG白嫖频道@zissv 44
+      - TG白嫖频道@zissv 45
+      - TG白嫖频道@zissv 46
+      - TG白嫖频道@zissv 47
+      - TG白嫖频道@zissv 48
+      - TG白嫖频道@zissv 49
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
